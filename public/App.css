@@ -3683,7 +3683,7 @@
 			}
 
 		#header.alt {
-			background-color: #1E2832;
+			background-color: transparent;
 			font-size: 1.25em;
 			padding: 1em 2em;
 			position: absolute;
@@ -4020,7 +4020,7 @@
 		@media screen and (max-width: 1680px) {
 
 			#banner {
-				padding: 9em 0 9em 0;
+				padding: 11em 0 9em 0;
 			}
 
 		}
