@@ -8,7 +8,7 @@ const ProjectCard = props => (
         </span>
         <div className="content">
             <h2>{props.title}</h2>
-            <p dangerouslySetInnerHTML={{ __html: props.description }}></p>
+            <p dangerouslySetInnerHTML={{__html: props.description}}/>
             <ul className="actions">
                 <li>
                     <a href={props.githubUrl} className="button">

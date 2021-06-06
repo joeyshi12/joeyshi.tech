@@ -1,4 +1,4 @@
-import { Component } from 'react';
+ import { Component } from 'react';
 import ProjectCard from './ProjectCard';
 import projectMessages from '../messages/ProjectMessages';
 
@@ -11,11 +11,11 @@ class Projects extends Component {
             const metadata = projectMessages[i];
             projectCards.push((
                 <ProjectCard key={i}
-                    title={metadata.title}
-                    description={metadata.description}
-                    imgUrl={metadata.imgUrl}
-                    githubUrl={metadata.githubUrl}
-                    orientation={orientation} />
+                             title={metadata.title}
+                             description={metadata.description}
+                             imgUrl={metadata.imgUrl}
+                             githubUrl={metadata.githubUrl}
+                             orientation={orientation} />
             ));
         }
         return projectCards

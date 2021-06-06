@@ -5,7 +5,7 @@ const About = () => (
     <section id="main" className="wrapper">
         <div className="container">
             <h2>{messages.aboutHeader}</h2>
-            <p dangerouslySetInnerHTML={{ __html: messages.aboutDescription }}></p>
+            <p dangerouslySetInnerHTML={{__html: messages.aboutDescription}}/>
         </div>
     </section>
 );
