@@ -1,2 +1,2 @@
 # joeyshi.tech
-A portfolio website for displaying some of my work [<a href="https://joeyshi.tech/">Link</a>]
+Portfolio website for showcasing my work [<a href="https://joeyshi.tech/">Link</a>]
